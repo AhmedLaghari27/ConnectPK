@@ -1,0 +1,16 @@
+export const verificationCopy = {
+  label: 'VERIFICATION', view: 'View verification',
+  title: 'A little trust goes a long way.', subtitle: 'Submit a fresh selfie for private review. Optional professional evidence can support your submission.',
+  privacy: 'Evidence is visible only to authorized reviewers, never other members. This selfie is not your public profile photo.',
+  status: { unverified: 'Unverified', pending: 'Pending review', approved: 'Approved', rejected: 'Rejected' },
+  detail: { unverified: 'Complete verification before receiving introductions.', pending: 'Your evidence has been submitted. Introductions remain unavailable until you are approved.', approved: 'Your verification is approved. Introductions also require account approval.', rejected: 'Your submission was not approved. You can submit a new selfie and updated evidence for another review.' },
+  selfie: 'Capture selfie', retake: 'Retake selfie', captured: 'Selfie ready', work: 'Add work proof (optional)', university: 'Add university proof (optional)',
+  workReady: 'Work proof ready', universityReady: 'University proof ready', linkedin: 'LinkedIn URL (optional)', portfolio: 'Portfolio URL (optional)',
+  linkError: 'Use a valid HTTPS link. LinkedIn links must use linkedin.com.',
+  formats: 'Proof images: JPEG or PNG, up to 5 MB each. Hide unrelated personal information before uploading.',
+  submit: 'Submit for review', refresh: 'Refresh status', home: 'Continue', retry: 'Try again',
+  permission: 'Camera access is needed to take your selfie. Allow it in device settings, then try again.',
+  mobile: 'Please use the iOS or Android app to capture a fresh selfie.',
+  error: 'We couldn’t complete that action. Check your connection and try again.',
+  missing: 'Please capture a selfie before submitting.', selected: 'Selected selfie preview', removeWork: 'Remove work proof', removeUniversity: 'Remove university proof',
+};

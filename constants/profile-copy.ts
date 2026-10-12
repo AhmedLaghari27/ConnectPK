@@ -1,0 +1,15 @@
+export const profileCopy = {
+  title: ['Start with the essentials.', 'Your professional world.', 'What you bring.', 'A shared purpose.', 'Make time to connect.'],
+  subtitle: ['A name and photo help make introductions personal. Share only a broad area, never an address.', 'Tell us about your work and experience.', 'Separate each item with a comma. Add up to ten per field.', 'Help the right people understand why you should meet.', 'Choose up to five upcoming windows. All times are in Pakistan time (UTC+5).'],
+  labels: { full_name: 'Full name', date_of_birth: 'Date of birth · private · YYYY-MM-DD', city: 'City', broad_area: 'Broad area (e.g. Gulshan, not a street address)', professional_role: 'Professional role', organization: 'Organization', industry: 'Industry', experience: 'Experience level', skills: 'Skills', interests: 'Professional interests', languages: 'Languages', can_help: 'What I can help with', wants_to_meet: 'Who I want to meet and why', vision: 'Short personal vision', intention: 'Your one networking intention', meeting_preference: 'Meeting preference' },
+  intentions: ['Exchange Ideas', 'Grow Professionally', 'Build Together'],
+  modes: ['Online', 'In person · public venue', 'Either'],
+  photo: 'Choose profile photo', photoHint: 'Choose a JPEG or PNG, up to 5 MB. This is a profile photo, not identity verification.',
+  uploaded: 'Profile photo uploaded.', window: 'Window', pakistanTime: 'Pakistan time', date: 'Date · YYYY-MM-DD', start: 'From · HH:MM', end: 'Until · HH:MM',
+  independent: 'I work independently', next: 'Save & continue', finish: 'Save profile', back: 'Back',
+  loading: 'Loading your private draft', retry: 'Try again', add: 'Add another window', remove: 'Remove window',
+  saved: 'Previous step saved privately. Changes on this step save when you continue.',
+  loadError: 'We couldn’t load your draft. Check your connection and try again.',
+  saveError: 'We couldn’t save your profile. Your entries are still here. Check your connection and try again.',
+  photoError: 'We couldn’t upload this photo. Choose a JPEG or PNG under 5 MB and try again.',
+};

@@ -1,0 +1,1 @@
+export default function Loading(){return <div role="status" aria-live="polite"><p className="eyebrow">CONNECTPK STAFF</p><h1>Loading your workspace…</h1><div className="panel skeleton"/><div className="panel skeleton"/></div>;}
